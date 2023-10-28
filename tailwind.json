@@ -23,9 +23,34 @@
 			"marginBottom": 8
 		}
 	},
+	"mb-20": {
+		"style": {
+			"marginBottom": 80
+		}
+	},
+	"mb-3": {
+		"style": {
+			"marginBottom": 12
+		}
+	},
 	"mb-4": {
 		"style": {
 			"marginBottom": 16
+		}
+	},
+	"ml-2": {
+		"style": {
+			"marginLeft": 8
+		}
+	},
+	"mt-2": {
+		"style": {
+			"marginTop": 8
+		}
+	},
+	"mt-20": {
+		"style": {
+			"marginTop": 80
 		}
 	},
 	"mt-4": {
@@ -38,34 +63,9 @@
 			"marginTop": 32
 		}
 	},
-	"mt-20": {
+	"h-16": {
 		"style": {
-			"marginTop": 80
-		}
-	},
-	"mb-20": {
-		"style": {
-			"marginBottom": 80
-		}
-	},
-	"mt-2": {
-		"style": {
-			"marginTop": 8
-		}
-	},
-	"ml-2": {
-		"style": {
-			"marginLeft": 8
-		}
-	},
-	"mb-3": {
-		"style": {
-			"marginBottom": 12
-		}
-	},
-	"flex": {
-		"style": {
-			"display": "flex"
+			"height": 64
 		}
 	},
 	"h-20": {
@@ -76,11 +76,6 @@
 	"h-24": {
 		"style": {
 			"height": 96
-		}
-	},
-	"h-16": {
-		"style": {
-			"height": 64
 		}
 	},
 	"max-h-[600px]": {
@@ -100,12 +95,12 @@
 			"flexBasis": "0%"
 		}
 	},
-	"basis-6/12": {
+	"basis-1/2": {
 		"style": {
 			"flexBasis": "50%"
 		}
 	},
-	"basis-1/2": {
+	"basis-6/12": {
 		"style": {
 			"flexBasis": "50%"
 		}
@@ -140,14 +135,6 @@
 			"justifyContent": "space-around"
 		}
 	},
-	"rounded-xl": {
-		"style": {
-			"borderTopLeftRadius": 12,
-			"borderTopRightRadius": 12,
-			"borderBottomRightRadius": 12,
-			"borderBottomLeftRadius": 12
-		}
-	},
 	"rounded-lg": {
 		"style": {
 			"borderTopLeftRadius": 8,
@@ -162,6 +149,14 @@
 			"borderTopRightRadius": 6,
 			"borderBottomRightRadius": 6,
 			"borderBottomLeftRadius": 6
+		}
+	},
+	"rounded-xl": {
+		"style": {
+			"borderTopLeftRadius": 12,
+			"borderTopRightRadius": 12,
+			"borderBottomRightRadius": 12,
+			"borderBottomLeftRadius": 12
 		}
 	},
 	"bg-app": {
@@ -194,14 +189,6 @@
 			"backgroundColor": "rgb(255 255 255 / var(--tw-bg-opacity))"
 		}
 	},
-	"p-4": {
-		"style": {
-			"paddingTop": 16,
-			"paddingRight": 16,
-			"paddingBottom": 16,
-			"paddingLeft": 16
-		}
-	},
 	"p-2": {
 		"style": {
 			"paddingTop": 8,
@@ -210,28 +197,24 @@
 			"paddingLeft": 8
 		}
 	},
+	"p-4": {
+		"style": {
+			"paddingTop": 16,
+			"paddingRight": 16,
+			"paddingBottom": 16,
+			"paddingLeft": 16
+		}
+	},
 	"px-16": {
 		"style": {
 			"paddingLeft": 64,
 			"paddingRight": 64
 		}
 	},
-	"px-8": {
+	"px-2": {
 		"style": {
-			"paddingLeft": 32,
-			"paddingRight": 32
-		}
-	},
-	"py-2": {
-		"style": {
-			"paddingTop": 8,
-			"paddingBottom": 8
-		}
-	},
-	"py-4": {
-		"style": {
-			"paddingTop": 16,
-			"paddingBottom": 16
+			"paddingLeft": 8,
+			"paddingRight": 8
 		}
 	},
 	"px-20": {
@@ -240,10 +223,10 @@
 			"paddingRight": 80
 		}
 	},
-	"px-2": {
+	"px-3": {
 		"style": {
-			"paddingLeft": 8,
-			"paddingRight": 8
+			"paddingLeft": 12,
+			"paddingRight": 12
 		}
 	},
 	"px-4": {
@@ -258,22 +241,34 @@
 			"paddingRight": 20
 		}
 	},
-	"py-3": {
+	"px-8": {
 		"style": {
-			"paddingTop": 12,
-			"paddingBottom": 12
-		}
-	},
-	"px-3": {
-		"style": {
-			"paddingLeft": 12,
-			"paddingRight": 12
+			"paddingLeft": 32,
+			"paddingRight": 32
 		}
 	},
 	"py-1": {
 		"style": {
 			"paddingTop": 4,
 			"paddingBottom": 4
+		}
+	},
+	"py-2": {
+		"style": {
+			"paddingTop": 8,
+			"paddingBottom": 8
+		}
+	},
+	"py-3": {
+		"style": {
+			"paddingTop": 12,
+			"paddingBottom": 12
+		}
+	},
+	"py-4": {
+		"style": {
+			"paddingTop": 16,
+			"paddingBottom": 16
 		}
 	},
 	"pb-2": {
@@ -284,6 +279,11 @@
 	"text-center": {
 		"style": {
 			"textAlign": "center"
+		}
+	},
+	"font-[\"Exo-Bold\"]": {
+		"style": {
+			"fontFamily": "Exo-Bold"
 		}
 	},
 	"font-[\"Exo-Medium\"]": {
@@ -301,9 +301,9 @@
 			"fontFamily": "Exo-SemiBold"
 		}
 	},
-	"font-[\"Exo-Bold\"]": {
+	"font-[\"Roboto-Light\"]": {
 		"style": {
-			"fontFamily": "Exo-Bold"
+			"fontFamily": "Roboto-Light"
 		}
 	},
 	"font-[\"Roboto-Regular\"]": {
@@ -316,9 +316,10 @@
 			"fontFamily": "Roboto-SemiBold"
 		}
 	},
-	"font-[\"Roboto-Light\"]": {
+	"text-2xl": {
 		"style": {
-			"fontFamily": "Roboto-Light"
+			"fontSize": 24,
+			"lineHeight": 32
 		}
 	},
 	"text-3xl": {
@@ -337,18 +338,6 @@
 		"style": {
 			"fontSize": 20,
 			"lineHeight": 28
-		}
-	},
-	"text-xs": {
-		"style": {
-			"fontSize": 12,
-			"lineHeight": 16
-		}
-	},
-	"text-2xl": {
-		"style": {
-			"fontSize": 24,
-			"lineHeight": 32
 		}
 	},
 	"text-primary": {
